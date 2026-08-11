@@ -3,4 +3,5 @@ colorlog
 pytest
 pytest-asyncio
 pytest-cov
+coverage
 aioresponses

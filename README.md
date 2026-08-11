@@ -1,6 +1,9 @@
-# Urban Solar for Home Assistant
+# Urban Solar Energy for Home Assistant
 
 **Unofficial HACS integration to track surplus injection and its valuation from Urban Solar Energy.**
+
+[![Unit Tests](https://github.com/davidducatel/UrbanSolarHomeAssistant/actions/workflows/tests.yml/badge.svg)](https://github.com/davidducatel/UrbanSolarHomeAssistant/actions/workflows/tests.yml)
+[![Code Coverage](https://codecov.io/gh/davidducatel/UrbanSolarHomeAssistant/branch/main/graph/badge.svg)](https://codecov.io/gh/davidducatel/UrbanSolarHomeAssistant)
 
 ---
 

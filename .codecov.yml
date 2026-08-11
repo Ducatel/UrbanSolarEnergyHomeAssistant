@@ -1,0 +1,35 @@
+version: 2
+
+coverage:
+  status:
+    project:
+      default:
+        target: auto
+        threshold: 0%
+        base: auto
+        paths:
+          - "custom_components/urban_solar_energy/"
+        informational: true
+    patch:
+      default:
+        target: auto
+        threshold: 0%
+        base: auto
+        paths:
+          - "custom_components/urban_solar_energy/"
+        informational: true
+
+  range: "50...100"
+  round: down
+  precision: 2
+
+ignore:
+  - "tests/"
+  - ".github/"
+  - "custom_components/urban_solar_energy/brand/"
+  - "custom_components/urban_solar_energy/translations/"
+
+comment:
+  layout: "reach,diff,flags,files"
+  behavior: default
+  require_changes: false
