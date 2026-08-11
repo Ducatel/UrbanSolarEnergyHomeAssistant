@@ -1,0 +1,6 @@
+homeassistant
+colorlog
+pytest
+pytest-asyncio
+pytest-cov
+aioresponses

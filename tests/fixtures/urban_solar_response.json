@@ -1,0 +1,93 @@
+{
+  "data": {
+    "getInjectionIndexes": [
+      {
+        "d": "2025-01-01",
+        "c": [{"c": "counter1", "v": 10000}]
+      },
+      {
+        "d": "2025-01-02",
+        "c": [{"c": "counter1", "v": 15000}]
+      },
+      {
+        "d": "2025-01-15",
+        "c": [{"c": "counter1", "v": 12000}]
+      },
+      {
+        "d": "2025-02-01",
+        "c": [{"c": "counter1", "v": 8000}]
+      },
+      {
+        "d": "2025-02-10",
+        "c": [{"c": "counter1", "v": 11000}]
+      },
+      {
+        "d": "2025-03-01",
+        "c": [{"c": "counter1", "v": 9500}]
+      },
+      {
+        "d": "2025-03-15",
+        "c": [{"c": "counter1", "v": 0}]
+      },
+      {
+        "d": "2025-03-20",
+        "c": [{"c": "counter1", "v": 13000}]
+      }
+    ],
+    "getBMSPricing": [
+      {
+        "startDate": "2025-01-01T00:00:00Z",
+        "endDate": "2025-03-31T23:59:59Z",
+        "price": 0.12
+      },
+      {
+        "startDate": "2025-04-01T00:00:00Z",
+        "endDate": null,
+        "price": 0.13
+      }
+    ],
+    "getBMSInjectionFromLastYear": {
+      "consumptions": [
+        {
+          "startDate": "2025-01-01T00:00:00Z",
+          "endDate": "2025-01-31T23:59:59Z",
+          "consumptions": [
+            {
+              "volume": 250,
+              "notInvoicedVolume": 50,
+              "type": "INJECTION",
+              "price": 0.12,
+              "isInvoiced": false
+            }
+          ]
+        },
+        {
+          "startDate": "2025-02-01T00:00:00Z",
+          "endDate": "2025-02-28T23:59:59Z",
+          "consumptions": [
+            {
+              "volume": 190,
+              "notInvoicedVolume": 30,
+              "type": "INJECTION",
+              "price": 0.12,
+              "isInvoiced": false
+            }
+          ]
+        },
+        {
+          "startDate": "2025-03-01T00:00:00Z",
+          "endDate": "2025-03-31T23:59:59Z",
+          "consumptions": [
+            {
+              "volume": 225,
+              "notInvoicedVolume": 0,
+              "type": "INJECTION",
+              "price": 0.12,
+              "isInvoiced": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

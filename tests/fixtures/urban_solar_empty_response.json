@@ -1,0 +1,9 @@
+{
+  "data": {
+    "getInjectionIndexes": [],
+    "getBMSPricing": [],
+    "getBMSInjectionFromLastYear": {
+      "consumptions": []
+    }
+  }
+}

@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.playwright-mcp/
+urban_solar_surplus.json
+config/
+/*.coverage

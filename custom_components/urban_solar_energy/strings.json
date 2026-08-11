@@ -1,0 +1,22 @@
+{
+  "title": "Urban Solar",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect Urban Solar",
+        "data": {
+          "email": "Email address",
+          "password": "Password",
+          "pdl": "PDL number"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect to Urban Solar",
+      "invalid_auth": "Invalid email address, password, or PDL"
+    },
+    "abort": {
+      "already_configured": "This PDL is already configured"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "errors": [
+    {
+      "message": "Invalid PDL or authentication failed",
+      "locations": [{"line": 2, "column": 3}],
+      "path": ["getInjectionIndexes"],
+      "extensions": {
+        "code": "UNAUTHENTICATED",
+        "http": {"status": 401}
+      }
+    }
+  ],
+  "data": null
+}
