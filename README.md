@@ -2,8 +2,8 @@
 
 **Unofficial HACS integration to track surplus injection and its valuation from Urban Solar Energy.**
 
-[![Unit Tests](https://github.com/davidducatel/UrbanSolarHomeAssistant/actions/workflows/tests.yml/badge.svg)](https://github.com/davidducatel/UrbanSolarHomeAssistant/actions/workflows/tests.yml)
-[![Code Coverage](https://codecov.io/gh/davidducatel/UrbanSolarHomeAssistant/branch/main/graph/badge.svg)](https://codecov.io/gh/davidducatel/UrbanSolarHomeAssistant)
+[![Unit Tests](https://github.com/Ducatel/UrbanSolarEnergyHomeAssistant/actions/workflows/tests.yml/badge.svg)](https://github.com/Ducatel/UrbanSolarEnergyHomeAssistant/actions/workflows/tests.yml)
+[![codecov](https://codecov.io/github/Ducatel/UrbanSolarEnergyHomeAssistant/graph/badge.svg?token=KQ6SPT69M0)](https://codecov.io/github/Ducatel/UrbanSolarEnergyHomeAssistant)
 
 ---
 
