@@ -78,8 +78,8 @@ DESCRIPTIONS: tuple[UrbanSolarSensorDescription, ...] = (
         native_unit_of_measurement="€",
         device_class=SensorDeviceClass.MONETARY,
         state_class=SensorStateClass.TOTAL,
-        entity_registry_enabled_default=True,
-        entity_registry_visible_default=True,
+        entity_registry_enabled_default=False,
+        entity_registry_visible_default=False,
     ),
     # Current month production sensor (kWh)
     UrbanSolarSensorDescription(
