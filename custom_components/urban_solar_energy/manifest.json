@@ -3,9 +3,9 @@
   "name": "Urban Solar Energy",
   "codeowners": [],
   "config_flow": true,
-  "documentation": "https://github.com/davidducatel/UrbanSolarEnergyHomeAssistant",
+  "documentation": "https://github.com/Ducatel/UrbanSolarEnergyHomeAssistant",
   "integration_type": "service",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/davidducatel/UrbanSolarEnergyHomeAssistant/issues",
+  "issue_tracker": "https://github.com/Ducatel/UrbanSolarEnergyHomeAssistant/issues",
   "version": "0.1.0"
 }

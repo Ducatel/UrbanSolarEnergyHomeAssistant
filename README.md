@@ -247,6 +247,6 @@ This integration is **unofficial** and not affiliated with Urban Solar Energy. I
 
 ## Support
 
-- **Issues:** [GitHub Issues](https://github.com/davidducatel/UrbanSolarEnergyHomeAssistant/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/davidducatel/UrbanSolarEnergyHomeAssistant/discussions)
+- **Issues:** [GitHub Issues](https://github.com/Ducatel/UrbanSolarEnergyHomeAssistant/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/Ducatel/UrbanSolarEnergyHomeAssistant/discussions)
 - **Home Assistant Community:** [Forum](https://community.home-assistant.io/)

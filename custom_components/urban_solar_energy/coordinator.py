@@ -20,7 +20,6 @@ from .const import DOMAIN, UPDATE_INTERVAL
 
 # Logger for coordinator operations
 _LOGGER = logging.getLogger(__name__)
-_LOGGER.setLevel(logging.DEBUG)
 
 
 class UrbanSolarDataUpdateCoordinator(DataUpdateCoordinator[dict[str, Any]]):

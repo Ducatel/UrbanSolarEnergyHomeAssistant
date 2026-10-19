@@ -68,7 +68,7 @@ class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
         Returns:
             ConfigFlowResult: Result of the configuration step (form or entry creation).
         """
-        _LOGGER.debug("Starting async_step_user with user_input: %s", user_input)
+        _LOGGER.debug("Starting async_step_user")
         errors: dict[str, str] = {}
         
         if user_input is not None:

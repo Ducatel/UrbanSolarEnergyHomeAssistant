@@ -39,7 +39,6 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
         ConfigEntryNotReady: If initial data fetch fails (e.g., API unavailable).
     """
     _LOGGER.debug("Starting async_setup_entry for Urban Solar (entry_id: %s)", entry.entry_id)
-    _LOGGER.debug("Config entry data: %s", entry.data)
     
     # Initialize the API client with user credentials
     client = UrbanSolarClient(
